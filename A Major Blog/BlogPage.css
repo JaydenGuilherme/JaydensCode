@@ -1,0 +1,381 @@
+.BlogFlexContainers{
+    display: flex;
+	flex-direction: row;
+    width: 100%;
+    padding-top: 70px;
+	gap: 20px;
+    position: relative;
+}
+
+.TitleBlog1:hover{
+ background:url(Images/HoverPattern.png);
+}
+.TitleBlog2:hover{
+    background:url(Images/HoverPattern.png);
+   }
+   .TitleBlog3:hover{
+    background:url(Images/HoverPattern.png);
+   }
+   .TitleBlog4:hover{
+    background:url(Images/HoverPattern.png);
+   }
+   .TitleBlog5:hover{
+    background:url(Images/HoverPattern.png);
+   }
+   .TitleBlog6:hover{
+    background:url(Images/HoverPattern.png);
+   }
+
+
+
+.BlogFlexContainers div {
+    width: 50%;
+    height: 600px;
+    margin: 5px;
+    background:url(Images/GradientBg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.BlogFlexContainers2{
+    display: flex;
+	flex-direction: row;
+    width: 100%;
+    padding-top: 70px;
+	gap: 20px;
+    position: relative;
+}
+
+.BlogFlexContainers2 div {
+    width: 50%;
+    height: 600px;
+    margin: 5px;
+    background:url(Images/Landcsape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.BlogFlexContainers3{
+    display: flex;
+	flex-direction: row;
+    width: 100%;
+    padding-top: 70px;
+	gap: 20px;
+    position: relative;
+}
+
+.BlogFlexContainers3 div {
+    width: 50%;
+    height: 600px;
+    margin: 5px;
+    background:url(Images/sunset.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.BlogFlexContainers4{
+    display: flex;
+	flex-direction: row;
+    width: 100%;
+    padding-top: 70px;
+	gap: 20px;
+    position: relative;
+}
+
+.BlogFlexContainers4 div {
+    width: 50%;
+    height: 600px;
+    margin: 5px;
+    background:url(Images/guitar2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+body{
+ height:600vh
+}
+
+.TitleBlog1{
+margin:0;
+color: #edf0f1;
+}
+.TitleBlog2{
+    margin:0;
+    color: #edf0f1;
+    }.TitleBlog3{
+        margin:0;
+        color: #edf0f1;
+        }.TitleBlog4{
+            margin:0;
+            color: #edf0f1;
+            }.TitleBlog5{
+                margin:0;
+                color: #edf0f1;
+                }.TitleBlog6{
+                    margin:0;
+                    color: #edf0f1;
+                    }
+
+#TitleBlogName{
+background-color: #020100;
+height: 40px;
+width:100%;
+text-align: left;
+padding:10px;
+
+}
+
+#TitleBlogUser{
+    background-color: #fc3b00;
+    height: 25px;
+    width:100%;
+    text-align: left;
+   padding:5px;
+   padding-left: 10px;
+  text-align: left;
+  margin-top: 555px;
+}
+
+#blogsubheading{
+ padding-top: 50px;
+ color: #fc3b00;
+ text-align: center;
+ text-decoration: underline;
+ text-transform: uppercase;
+ font-size: 34px;
+}
+
+.FormContainer{
+    display: flex;
+	flex-direction: row;
+    width: 100%;
+    padding-top: 0px;
+	gap: 20px;
+    position: relative;
+}
+
+.FormContainer div{
+    width: 75%;
+    height: 1000px;
+    margin: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+#FormHeader{
+    text-align: center;
+    font-size: 64px;
+    color: #fc3b00;
+    text-transform: uppercase;
+    padding-top: 140px;
+}
+
+
+.FormBg{
+    background-image: url(Images/beautiful-scenery-orange-yellow-green-autumn-leaves-forest-background-nature.jpeg);
+}
+
+.Form{
+    background-color: #edf0f1;
+    border: 2px solid black;
+    width: 25%;
+    float: left;
+    height: 940px;
+    align-items: center;
+    margin:30px;
+}
+.Sign-Up{
+    background-color: #edf0f1;
+    border: 2px solid black;
+    width: 25%;
+    float: right;
+    height: 940px;
+    align-items: center;
+    margin:30px;
+}
+
+#RegHead{
+    margin-top: 40px;
+    text-align: center;
+    color:#fc3b00;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#FormText{
+margin-left: 40px;
+margin-top: 20px ;
+}
+
+#FormText2{
+    margin-left: 27px;
+    margin-top: 20px ;
+    }
+
+    #FormText3{
+        margin-left: 20px;
+        margin-top: 20px ;
+        }
+
+#Text{
+    display: inline-block;
+    margin-left: 60px;
+}
+
+#FormRadio{
+    margin-left: 10px;
+    margin-top: 20px ;
+}
+
+input[type="range"] {
+    width: 250px;
+    margin: 20px;
+    -webkit-appearance: none;
+    background-color: #787878;
+    border-radius: 120px;
+  }
+
+  input[type="radio"] {
+    /* Default radio button styles */
+    -webkit-appearance: none; /* Remove default appearance */
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0); /* Default color */
+    outline: none; /* Remove focus outline */
+  }
+  
+  input[type="radio"]:checked {
+    border-color: rgb(0, 0, 0); /* Change border color to red when checked */
+    background-color: #fc3b00;
+  }
+
+  #country{
+    margin-top: 80px;
+    margin-left: 20;
+    
+  }
+
+  select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .Test{
+
+  }
+  
+
+
+
+
+       
+          
+
+          input[type='range']::-webkit-slider-runnable-track {
+            height: 10px;
+            -webkit-appearance: none;
+            color: #5f5f5f;
+            margin-top: 0px;
+          }
+          
+          input[type='range']::-webkit-slider-thumb {
+            width: 10px;
+            -webkit-appearance: none;
+            height: 10px;
+            cursor: ew-resize;
+            background: #000000;
+            border-radius: 120px;
+          }
+
+          input[type='range']::-webkit-slider-thumb:hover {
+            background-color:#fc3b00
+          }
+
+          #formbtn{
+            background-color: #fc3b00;
+            margin-top: 220px;
+            margin-left: 80px;
+            color: white;
+            width:120px;
+            height:50px;
+            border-radius: 120px;
+          }
+
+          #formbtn:hover{
+           background-color: #edf0f1;
+           color: #fc3b00;
+           
+          }
+
+          #formbtn2{
+            background-color: #fc3b00;
+            margin-top: 220px;
+            margin-left: 40px;
+            color: white;
+            width:120px;
+            height:50px;
+            border-radius: 120px;
+          }
+
+          #formbtn2:hover{
+           background-color: #edf0f1;
+           color: #fc3b00;
+        
+           width:120px;
+            height:50px;
+          }
+
+          #CantSignIn{
+          color: #9a9a9a;
+          text-align: center;
+          margin-top: 20px;
+          text-decoration: underline;
+          }
+
+          #CantSignIn a{
+           background-color: #edf0f1;
+            }
+
+            #CantSignIn:hover{
+           color: #676666;
+            }
+
+            #registrationDetails {
+                display: none;
+                position: fixed;
+                right: 10px;
+                top: 10px;
+                background-color: white;
+                border: 1px solid #ccc;
+                padding: 10px;
+            }
+      
+          
+        
+  
+
+  span {
+    font-size: 18px;
+    margin-right: 40px;
+    float: right;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    margin-right:50px;
+    color: white;
+    background-color: #fc3b00;
+  }
+
+

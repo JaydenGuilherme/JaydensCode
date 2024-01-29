@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button{
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ color: #edf0f1;
+ text-decoration: none;
+ background: #000000;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: #000000;
+}
+
+.NavBarLogo{
+cursor: pointer;
+}
+
+.NavLinks{
+    list-style: none;
+}
+
+.NavLinks a{
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ color: #edf0f1;
+ text-decoration: none;
+ background: #000000;
+}
+
+.NavLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+   color: #fc3b00;
+}
+
+.NavLinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.NavLinks li a:hover{
+    color: #fc3b00;
+}
+
+#navbtn{
+    padding: 9px 25px;
+    background-color: #fc3b00;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: white; 
+    color:#fc3b00
+}
+
+.searchBar{
+    display: inline-block;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 2px solid #fc3b00;
+}
+
+#SearchbarID{
+   width: 300px;
+   height: 20px;
+   padding: 10px;
+   border-radius: 20px;
+   border: 2px solid #fc3b00;
+}
+
+
+.footerContainer{
+    background-color: #000000;
+}
+
+.leftfooter{
+    display: flex;
+	flex-direction: row;
+    width: 100%;
+    padding-top: 70px;
+	gap: 20px;
+    position: relative; 
+    margin-top: 120px;
+    align-items: center;
+}
+
+
+
+#footer{
+   background-color: #edf0f1;
+   color: #fc3b00;
+}
+
+#footerflexcontainers{
+    display: flex;
+	flex-direction: row;
+    width: 100%;
+	gap: 20px;
+    position: relative;
+    background-color: #000000;
+    margin-top: 120px;
+    padding-left: 835px;
+}
+
+#footerflexcontainers div{
+    width: 50%;
+    height: 240px;
+    margin: 5px;
+}
+
+#InfoContainer{
+   align-items: center;
+   display: flex;
+   width: 50%;
+   flex-direction: row;
+}
+
+#footerHeader{
+    color: #fc3b00;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+
+#footerLinks{
+
+}
+
+#footerLinks li{
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: 140px;
+    color: #fc3b00;
+}
+
+#footerLinks ul{
+
+}
+
+#footerLinks a{
+background-color: #000000;
+color: #fc3b00;
+margin-left: 37px;
+}
+
+#subheaderfooter{
+padding-top: 20px;
+text-align: center;
+text-decoration: underline;
+
+}
+
+#subheaderfooter a{
+    padding-right: 30px;
+}
+
+#subheaderfooter li{
+    padding-left: 120px;
+}
+
+#footerLinksright li{
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #fc3b00;
+    text-align: center;
+}
+
+#footerLinksright a{
+    background-color: #000000;
+    color: #fc3b00;
+    margin-left: 10px;  
+    text-align: center;
+    display: inline-flex;
+}
+
+#subheaderfooterright{
+   text-align: center;
+    }
+
+#domainfooter{
+    text-align: center;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.BlogHeader{
+    color:#fc3b00;  
+    text-align: center;
+    margin-top: 20px;
+    font-size:32px;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  .footerleftside li{
+  text-align: center;
+  padding-left: 80px;
+  }
+
+  .footerleftside a{
+    text-align: center;
+  }
+  .footerleftside{
+    text-align: center;
+  }
+
+
+

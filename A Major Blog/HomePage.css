@@ -1,0 +1,105 @@
+.BlogFlexContainers{
+    display: flex;
+	flex-direction: row;
+    width: 100%;
+    padding-top: 70px;
+	gap: 20px;
+    position: relative;
+}
+
+.TitleBlog1:hover{
+ background:url(Images/HoverPattern.png) ;
+}
+.TitleBlog2:hover{
+    background:url(Images/HoverPattern.png);
+   }
+   .TitleBlog3:hover{
+    background:url(Images/HoverPattern.png);
+   }
+   .TitleBlog4:hover{
+    background:url(Images/HoverPattern.png);
+   }
+   .TitleBlog5:hover{
+    background:url(Images/HoverPattern.png);
+   }
+   .TitleBlog6:hover{
+    background:url(Images/HoverPattern.png);
+   }
+
+
+
+.BlogFlexContainers div {
+    width: 50%;
+    height: 350px;
+    margin: 5px;
+    background:url(Images/Background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.BlogFlexContainers2{
+    display: flex;
+	flex-direction: row;
+    width: 100%;
+    padding-top: 70px;
+	gap: 20px;
+    position: relative;
+}
+
+.BlogFlexContainers2 div {
+    width: 50%;
+    height: 350px;
+    margin: 5px;
+    background:url(Images/ImageGrid2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+body{
+ height:100vh
+}
+
+.TitleBlog1{
+margin:0;
+color: #edf0f1;
+}
+.TitleBlog2{
+    margin:0;
+    color: #edf0f1;
+    }.TitleBlog3{
+        margin:0;
+        color: #edf0f1;
+        }.TitleBlog4{
+            margin:0;
+            color: #edf0f1;
+            }.TitleBlog5{
+                margin:0;
+                color: #edf0f1;
+                }.TitleBlog6{
+                    margin:0;
+                    color: #edf0f1;
+                    }
+
+#TitleBlogName{
+background-color: #020100;
+height: 40px;
+width:100%;
+text-align: left;
+padding:10px;
+
+}
+
+#TitleBlogUser{
+    background-color: #fc3b00;
+    height: 25px;
+    width:100%;
+    text-align: left;
+   padding:5px;
+   padding-left: 10px;
+  text-align: left;
+  margin-top: 285px;
+}
